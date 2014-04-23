@@ -46,6 +46,11 @@ p {
 	font-size: 25px;
 }
 
+em {
+	font-family: 'Rock Salt', 'cursive';
+	font-size: 20px;
+}
+
 
 /* Set Your Own Margin & Padding */
 h2, p {
