@@ -1,0 +1,88 @@
+body {
+	background: url("../img/blackt.jpg") fixed center center no-repeat;
+	background-size: cover;
+}
+
+.container {
+	background-color: rgb(200, 211, 219);
+	padding: 10px 25px;
+}
+
+div section:nth-child(1) {
+	width: 90%;
+	margin: 10px 0;
+}
+
+div section:nth-child(1) img {
+	width: 100%;
+	padding: 10px 45px;
+}
+
+div section:nth-child(2) img {
+	float: right;
+	padding: 10px 100px;
+	width: 250px;
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', 'sans-serif';
+	padding-top: 25px;
+	padding-left: 100px;
+	font-size: 80px;
+}
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+
+/* rgb(94, 108, 117); rgb(155, 178, 194); rgb(220, 66, 70); rgb(5,75,119) and black */
+.color-1 {
+	background-color: rgb(94, 108, 117);
+}
+
+.color-2 {
+	background-color: rgb(155, 178, 194);
+}
+
+.color-3 {
+	background-color: rgb(5,75,119);
+}
+
+.color-4 {
+	background-color: black;
+}
+
+.pattern-1 {
+	background: url("../img/soft.jpg") center no-repeat;
+}
+
+.pattern-2 {
+	background: url("../img/hardt.jpg") center no-repeat;
+}
+
+.pattern-3 {
+	background: url("../img/blackt.jpg") center no-repeat;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 2px solid #fff;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
