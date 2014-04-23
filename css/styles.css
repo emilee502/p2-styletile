@@ -26,15 +26,42 @@ div section:nth-child(2) img {
 
 h1 {
 	font-family: 'Open Sans Condensed', 'sans-serif';
-	padding-top: 25px;
+	padding-top: 65px;
 	padding-left: 100px;
 	font-size: 80px;
+	margin: 10px 0;
+}
+
+.content {
+	padding: 10px 125px;
+}
+
+h2 {
+	font-family: 'Rock Salt', 'cursive';
+	font-size: 35px;
+}
+
+p {
+	font-family: 'Open Sans Condensed', 'sans-serif';
+	font-size: 25px;
 }
 
 
 /* Set Your Own Margin & Padding */
-h2, h3, p {
+h2, p {
 	margin: 0;
+}
+
+section:nth-child(4) {
+	width: 350px;
+	float: left;
+	padding: 25px 10px 25px 100px;
+}
+
+section:nth-child(5) {
+	width: 350px;
+	float: right;
+	padding: 25px 100px 25px 10px;
 }
 
 
